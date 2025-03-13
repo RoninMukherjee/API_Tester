@@ -1,0 +1,68 @@
+body{
+    font-family: Roboto;
+}
+
+.container-fluid{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleblock{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.titleblock:hover{
+    color:grey;
+}
+
+.titleblock{
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    background-color: rgb(193, 230, 252);
+}
+
+.about-me{
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+.btn-outline-success{
+    background-color: green;
+    color: white;
+}
+
+.btn-outline-success:hover{
+    background-color: lightgreen;
+    color: black;
+}
+
+.btn-outline-danger{
+    background-color: red;
+    color: white;
+}
+
+.btn-outline-danger:hover{
+    background-color: rgb(254, 107, 107);
+    color: black;
+}
+
+.response-head{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.form-select, .query-key, .query-value, .header-key, .header-value{
+    background-color: beige;
+}
+
+#req_body{
+    background-color: beige;
+}
